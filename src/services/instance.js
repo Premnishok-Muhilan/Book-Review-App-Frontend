@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // define the base url
-const baseURL = "http://localhost:3001/api/v1";
+// const baseURL = "http://localhost:3001/api/v1";
+const baseURL = "https://book-review-app-backend-dxo4.onrender.com/api/v1";
 
 // define the axios instance
 const instance = axios.create({
