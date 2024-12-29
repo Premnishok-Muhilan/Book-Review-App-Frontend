@@ -63,8 +63,8 @@ const Register = () => {
                     />
                   </div>
                   <div className="mb-3">
-                    <label htmlFor="email" className="form-label">Username</label>
-                    <input type="email" className="form-control" id="username" 
+                    <label htmlFor="username" className="form-label">Username</label>
+                    <input type="username" className="form-control" id="username" 
                       value={username}
                       onChange={(e) => dispatch(setUsername(e.target.value))}
                     />
